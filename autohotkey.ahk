@@ -1,3 +1,7 @@
+;;
+;; Based on https://pastebin.com/eRADkvuN
+;;
+
 #NoEnv
 #Warn
 #SingleInstance force
