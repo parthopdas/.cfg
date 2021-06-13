@@ -1,4 +1,4 @@
-;;
+﻿;;
 ;; Based on https://pastebin.com/eRADkvuN
 ;;
 
