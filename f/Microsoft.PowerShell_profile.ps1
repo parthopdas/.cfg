@@ -17,4 +17,4 @@ $modules | ForEach-Object {
   Import-Module $_
 }
 
-Set-Location d:\
+Set-Location d:\src

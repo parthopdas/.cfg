@@ -809,6 +809,30 @@
   </item>
   <item>
     <key>
+      <string>RepoObjectsTree.ShowBranches</string>
+    </key>
+    <value>
+      <string>false</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>RepoObjectsTree.ShowSubmodules</string>
+    </key>
+    <value>
+      <string>false</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>RepoObjectsTree.ShowTags</string>
+    </key>
+    <value>
+      <string>true</string>
+    </value>
+  </item>
+  <item>
+    <key>
       <string>RepoObjectsTree.SubmodulesIndex</string>
     </key>
     <value>

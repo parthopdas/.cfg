@@ -33,6 +33,11 @@ $files = @(
     "platform" = "win"
   },
   @{
+    "name" = "VSCode PowerShell Profile"
+    "target" = Join-Path $env:USERPROFILE "Documents/WindowsPowerShell/Microsoft.VSCode_profile.ps1"
+    "platform" = "win"
+  },
+  @{
     "name" = "Microsoft Terminal settings"
     "target" = Join-Path $env:LOCALAPPDATA "Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json"
     "platform" = "win"
@@ -81,7 +86,7 @@ function Install-SettingsFile {
   )
 
   Process {
-    Write-Host -ForegroundColor Green "Installing $($SettingsInfo.name)..."
+    Write-Host -ForegroundColor Green "Installing $($SettingsInfo.name) [$($SettingsInfo.target)]..."
 
     $source = $filesRoot | Join-Path -ChildPath (Split-Path $SettingsInfo.target -Leaf)
     Write-Host -ForegroundColor Gray "... Checking local file exists. " -NoNewline
