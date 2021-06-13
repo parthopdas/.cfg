@@ -62,7 +62,7 @@
             },
             {
                 "colorScheme": "Campbell",
-                "commandline": "%USERPROFILE%\\scoop\\apps\\pwsh\\current\\pwsh.exe -ExecutionPolicy RemoteSigned -NoExit -Command \"& 'C:\\Users\\partho\\Anaconda3\\shell\\condabin\\conda-hook.ps1' ; conda activate 'C:\\Users\\partho\\Anaconda3' ; cd d:\\src\\c \"",
+                "commandline": "%USERPROFILE%\\scoop\\apps\\pwsh\\current\\pwsh.exe -ExecutionPolicy RemoteSigned -NoExit -Command \"& '%USERPROFILE%\\Anaconda3\\shell\\condabin\\conda-hook.ps1' ; conda activate '%USERPROFILE%\\Anaconda3' ; cd d:\\src\\c \"",
                 "fontFace": "Cascadia Code",
                 "fontSize": 10,
                 "guid": "{61c54bbe-c2c6-5271-96e7-119a87ff44bf}",
@@ -73,7 +73,7 @@
             },
             {
                 "colorScheme": "Campbell",
-                "commandline": "%WINDIR%\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe -ExecutionPolicy RemoteSigned -NoExit -Command \"&{Import-Module 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\Microsoft.VisualStudio.DevShell.dll'; Enter-VsDevShell 7df9a99e; cd d:\\src}",
+                "commandline": "%WINDIR%\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe -ExecutionPolicy RemoteSigned -NoExit -Command \"&{Import-Module '%ProgramFiles(x86)%\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\Microsoft.VisualStudio.DevShell.dll'; Enter-VsDevShell 7df9a99e; cd d:\\src}",
                 "fontFace": "Cascadia Code",
                 "fontSize": 10,
                 "guid": "{61c54bbe-c2c6-5271-96e7-229a87ff44bf}",

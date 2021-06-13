@@ -1,0 +1,25 @@
+[core]
+	editor = \"C:/Users/parthadas/scoop/apps/gitextensions/current/GitExtensions.exe\" fileeditor
+[user]
+	name = Partha P. Das
+	email = parthopdas@live.com
+[diff]
+	guitool = vscode
+[merge]
+	guitool = vscode
+[pull]
+	rebase = false
+[fetch]
+	prune = false
+[rebase]
+	autoStash = false
+[difftool "vscode"]
+	cmd = \"\" --wait --diff \"$LOCAL\" \"$REMOTE\"
+[mergetool "vscode"]
+	cmd = \"\" --wait \"$MERGED\"
+[credential]
+	helper = cache
+	helper =
+	helper = D:/bin/gcm/git-credential-manager-core
+[credential "https://dev.azure.com"]
+	useHttpPath = true
