@@ -2,6 +2,14 @@
 <dictionary>
   <item>
     <key>
+      <string>AddCommitReferenceToCherryPick</string>
+    </key>
+    <value>
+      <string>false</string>
+    </value>
+  </item>
+  <item>
+    <key>
       <string>addnewlinetocommitmessagewhenmissing</string>
     </key>
     <value>
@@ -29,7 +37,15 @@
       <string>Appearance.AvatarProvider</string>
     </key>
     <value>
-      <string>Default</string>
+      <string>Gravatar</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>authoredhighlightcolor</string>
+    </key>
+    <value>
+      <string>LightYellow</string>
     </value>
   </item>
   <item>
@@ -66,10 +82,26 @@
   </item>
   <item>
     <key>
+      <string>autostash</string>
+    </key>
+    <value>
+      <string>false</string>
+    </value>
+  </item>
+  <item>
+    <key>
       <string>AvailableEncodings</string>
     </key>
     <value>
-      <string>Default;us-ascii;utf-16;utf-8;IBM437</string>
+      <string>Default;us-ascii;utf-16;utf-7;ibm850</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>branchcolor</string>
+    </key>
+    <value>
+      <string>DarkRed</string>
     </value>
   </item>
   <item>
@@ -78,30 +110,6 @@
     </key>
     <value>
       <string>false</string>
-    </value>
-  </item>
-  <item>
-    <key>
-      <string>BuildServer.EnableIntegration</string>
-    </key>
-    <value>
-      <string>False</string>
-    </value>
-  </item>
-  <item>
-    <key>
-      <string>BuildServer.ShowBuildResultPage</string>
-    </key>
-    <value>
-      <string>True</string>
-    </value>
-  </item>
-  <item>
-    <key>
-      <string>BuildServer.Type</string>
-    </key>
-    <value>
-      <string />
     </value>
   </item>
   <item>
@@ -146,10 +154,18 @@
   </item>
   <item>
     <key>
+      <string>CommitAutomaticallyAfterCherryPick</string>
+    </key>
+    <value>
+      <string>false</string>
+    </value>
+  </item>
+  <item>
+    <key>
       <string>CommitDialog.splitLeft_Distance</string>
     </key>
     <value>
-      <string>459</string>
+      <string>942</string>
     </value>
   </item>
   <item>
@@ -181,7 +197,7 @@
       <string>CommitDialog.splitLeft_Size</string>
     </key>
     <value>
-      <string>2047</string>
+      <string>2071</string>
     </value>
   </item>
   <item>
@@ -189,7 +205,7 @@
       <string>CommitDialog.splitMain_Distance</string>
     </key>
     <value>
-      <string>767</string>
+      <string>924</string>
     </value>
   </item>
   <item>
@@ -229,7 +245,7 @@
       <string>CommitDialog.splitRight_Distance</string>
     </key>
     <value>
-      <string>1726</string>
+      <string>1464</string>
     </value>
   </item>
   <item>
@@ -261,7 +277,7 @@
       <string>CommitDialog.splitRight_Size</string>
     </key>
     <value>
-      <string>2047</string>
+      <string>2071</string>
     </value>
   </item>
   <item>
@@ -270,6 +286,14 @@
     </key>
     <value>
       <string>6</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>commitdialogselectionfilter</string>
+    </key>
+    <value>
+      <string>false</string>
     </value>
   </item>
   <item>
@@ -306,26 +330,18 @@
   </item>
   <item>
     <key>
-      <string>Detailed.ConEmuTerminal</string>
+      <string>Detailed.CommitInfoPosition</string>
     </key>
     <value>
-      <string>bash</string>
+      <string>LeftwardFromList</string>
     </value>
   </item>
   <item>
     <key>
-      <string>Detailed.ShowConEmuTab</string>
+      <string>Detailed.ShowSplitViewLayout</string>
     </key>
     <value>
-      <string>True</string>
-    </value>
-  </item>
-  <item>
-    <key>
-      <string>Detailed.ShowGpgInformation</string>
-    </key>
-    <value>
-      <string>True</string>
+      <string>true</string>
     </value>
   </item>
   <item>
@@ -333,7 +349,23 @@
       <string>dictionary</string>
     </key>
     <value>
-      <string>en-US</string>
+      <string>none</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>diffaddedcolor</string>
+    </key>
+    <value>
+      <string>#C8FFC8</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>diffaddedextracolor</string>
+    </key>
+    <value>
+      <string>#87FF87</string>
     </value>
   </item>
   <item>
@@ -346,10 +378,26 @@
   </item>
   <item>
     <key>
-      <string>difftools.showavailable</string>
+      <string>diffremovedcolor</string>
     </key>
     <value>
-      <string>true</string>
+      <string>#FFC8C8</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>diffremovedextracolor</string>
+    </key>
+    <value>
+      <string>#FF9696</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>diffsectioncolor</string>
+    </key>
+    <value>
+      <string>#E6E6E6</string>
     </value>
   </item>
   <item>
@@ -363,6 +411,14 @@
   <item>
     <key>
       <string>DiffViewer.AutomaticContinuousScroll</string>
+    </key>
+    <value>
+      <string>false</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>DontCommitMerge</string>
     </key>
     <value>
       <string>false</string>
@@ -498,10 +554,210 @@
   </item>
   <item>
     <key>
-      <string>gitbindir</string>
+      <string>FormBrowse.DiffSplitContainer_Distance</string>
     </key>
     <value>
-      <string>C:\Users\parthadas\scoop\apps\git\current\bin\</string>
+      <string>300</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>FormBrowse.DiffSplitContainer_Dpi</string>
+    </key>
+    <value>
+      <string>192</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>FormBrowse.DiffSplitContainer_FontSize</string>
+    </key>
+    <value>
+      <string>9</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>FormBrowse.DiffSplitContainer_Panel1Collapsed</string>
+    </key>
+    <value>
+      <string>false</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>FormBrowse.DiffSplitContainer_Size</string>
+    </key>
+    <value>
+      <string>3828</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>FormBrowse.FileTreeSplitContainer_Distance</string>
+    </key>
+    <value>
+      <string>596</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>FormBrowse.FileTreeSplitContainer_Dpi</string>
+    </key>
+    <value>
+      <string>192</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>FormBrowse.FileTreeSplitContainer_FontSize</string>
+    </key>
+    <value>
+      <string>9</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>FormBrowse.FileTreeSplitContainer_Panel1Collapsed</string>
+    </key>
+    <value>
+      <string>false</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>FormBrowse.FileTreeSplitContainer_Size</string>
+    </key>
+    <value>
+      <string>1834</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>FormBrowse.MainSplitContainer_Distance</string>
+    </key>
+    <value>
+      <string>520</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>FormBrowse.MainSplitContainer_Dpi</string>
+    </key>
+    <value>
+      <string>192</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>FormBrowse.MainSplitContainer_FontSize</string>
+    </key>
+    <value>
+      <string>9</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>FormBrowse.MainSplitContainer_Panel1Collapsed</string>
+    </key>
+    <value>
+      <string>true</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>FormBrowse.MainSplitContainer_Size</string>
+    </key>
+    <value>
+      <string>0</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>FormBrowse.RevisionsSplitContainer_Distance</string>
+    </key>
+    <value>
+      <string>1014</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>FormBrowse.RevisionsSplitContainer_Dpi</string>
+    </key>
+    <value>
+      <string>192</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>FormBrowse.RevisionsSplitContainer_FontSize</string>
+    </key>
+    <value>
+      <string>9</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>FormBrowse.RevisionsSplitContainer_Panel1Collapsed</string>
+    </key>
+    <value>
+      <string>false</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>FormBrowse.RevisionsSplitContainer_Size</string>
+    </key>
+    <value>
+      <string>1846</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>FormBrowse.RightSplitContainer_Distance</string>
+    </key>
+    <value>
+      <string>351</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>FormBrowse.RightSplitContainer_Dpi</string>
+    </key>
+    <value>
+      <string>192</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>FormBrowse.RightSplitContainer_FontSize</string>
+    </key>
+    <value>
+      <string>9</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>FormBrowse.RightSplitContainer_Panel1Collapsed</string>
+    </key>
+    <value>
+      <string>false</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>FormBrowse.RightSplitContainer_Size</string>
+    </key>
+    <value>
+      <string>1042</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>FormPullAction</string>
+    </key>
+    <value>
+      <string>Rebase</string>
     </value>
   </item>
   <item>
@@ -514,10 +770,26 @@
   </item>
   <item>
     <key>
+      <string>graphcolor</string>
+    </key>
+    <value>
+      <string>DarkRed</string>
+    </value>
+  </item>
+  <item>
+    <key>
       <string>GravatarDefaultImageType</string>
     </key>
     <value>
-      <string>AuthorInitials</string>
+      <string>Identicon</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>highlightalloccurencesncolor</string>
+    </key>
+    <value>
+      <string>LightYellow</string>
     </value>
   </item>
   <item>
@@ -542,7 +814,139 @@
     &lt;/Repository&gt;
     &lt;Repository&gt;
       &lt;Anchor&gt;None&lt;/Anchor&gt;
-      &lt;Path&gt;d:\src\dpr\p2d\&lt;/Path&gt;
+      &lt;Path&gt;d:\src\dpt\pls\&lt;/Path&gt;
+    &lt;/Repository&gt;
+    &lt;Repository&gt;
+      &lt;Anchor&gt;None&lt;/Anchor&gt;
+      &lt;Path&gt;d:\src\p2d\partho.ws\&lt;/Path&gt;
+    &lt;/Repository&gt;
+    &lt;Repository&gt;
+      &lt;Anchor&gt;None&lt;/Anchor&gt;
+      &lt;Path&gt;d:\src\p2d\l\&lt;/Path&gt;
+    &lt;/Repository&gt;
+    &lt;Repository&gt;
+      &lt;Anchor&gt;None&lt;/Anchor&gt;
+      &lt;Path&gt;d:\src\dpr\dpr-p2d\&lt;/Path&gt;
+    &lt;/Repository&gt;
+    &lt;Repository&gt;
+      &lt;Anchor&gt;None&lt;/Anchor&gt;
+      &lt;Path&gt;d:\src\p2d\parthopdas.github.io\&lt;/Path&gt;
+    &lt;/Repository&gt;
+    &lt;Repository&gt;
+      &lt;Anchor&gt;None&lt;/Anchor&gt;
+      &lt;Path&gt;d:\src\p2d\dotcfg\&lt;/Path&gt;
+    &lt;/Repository&gt;
+    &lt;Repository&gt;
+      &lt;Anchor&gt;None&lt;/Anchor&gt;
+      &lt;Path&gt;d:\src\dpt\edpd\&lt;/Path&gt;
+    &lt;/Repository&gt;
+    &lt;Repository&gt;
+      &lt;Anchor&gt;None&lt;/Anchor&gt;
+      &lt;Path&gt;d:\src\dpt\i\&lt;/Path&gt;
+    &lt;/Repository&gt;
+    &lt;Repository&gt;
+      &lt;Anchor&gt;None&lt;/Anchor&gt;
+      &lt;Path&gt;d:\src\dpt\dd\&lt;/Path&gt;
+    &lt;/Repository&gt;
+    &lt;Repository&gt;
+      &lt;Anchor&gt;None&lt;/Anchor&gt;
+      &lt;Path&gt;d:\src\dr\crl\&lt;/Path&gt;
+    &lt;/Repository&gt;
+    &lt;Repository&gt;
+      &lt;Anchor&gt;None&lt;/Anchor&gt;
+      &lt;Path&gt;d:\src\dr\cra\&lt;/Path&gt;
+    &lt;/Repository&gt;
+    &lt;Repository&gt;
+      &lt;Anchor&gt;None&lt;/Anchor&gt;
+      &lt;Path&gt;d:\src\dpt\webui\&lt;/Path&gt;
+    &lt;/Repository&gt;
+    &lt;Repository&gt;
+      &lt;Anchor&gt;None&lt;/Anchor&gt;
+      &lt;Path&gt;d:\src\dpt\ttt\&lt;/Path&gt;
+    &lt;/Repository&gt;
+    &lt;Repository&gt;
+      &lt;Anchor&gt;None&lt;/Anchor&gt;
+      &lt;Path&gt;d:\src\dpt\wtp\&lt;/Path&gt;
+    &lt;/Repository&gt;
+    &lt;Repository&gt;
+      &lt;Anchor&gt;None&lt;/Anchor&gt;
+      &lt;Path&gt;d:\src\dr\crb\&lt;/Path&gt;
+    &lt;/Repository&gt;
+    &lt;Repository&gt;
+      &lt;Anchor&gt;None&lt;/Anchor&gt;
+      &lt;Path&gt;\\wsl$\Ubuntu\home\partho\src\dpt\edpd\&lt;/Path&gt;
+    &lt;/Repository&gt;
+    &lt;Repository&gt;
+      &lt;Anchor&gt;None&lt;/Anchor&gt;
+      &lt;Path&gt;d:\src\gh\parthopdas.github.io\&lt;/Path&gt;
+    &lt;/Repository&gt;
+    &lt;Repository&gt;
+      &lt;Anchor&gt;None&lt;/Anchor&gt;
+      &lt;Path&gt;d:\src\dpt\wf\&lt;/Path&gt;
+    &lt;/Repository&gt;
+    &lt;Repository&gt;
+      &lt;Anchor&gt;None&lt;/Anchor&gt;
+      &lt;Path&gt;d:\src\ks\typescript-nodejs-app-starter\&lt;/Path&gt;
+    &lt;/Repository&gt;
+    &lt;Repository&gt;
+      &lt;Anchor&gt;None&lt;/Anchor&gt;
+      &lt;Path&gt;d:\src\dr\BorobudurReliefStories\&lt;/Path&gt;
+    &lt;/Repository&gt;
+    &lt;Repository&gt;
+      &lt;Anchor&gt;None&lt;/Anchor&gt;
+      &lt;Path&gt;d:\src\pnf\psc\&lt;/Path&gt;
+    &lt;/Repository&gt;
+    &lt;Repository&gt;
+      &lt;Anchor&gt;None&lt;/Anchor&gt;
+      &lt;Path&gt;d:\src\gh\delme2\webpack-library-starter-test\&lt;/Path&gt;
+    &lt;/Repository&gt;
+    &lt;Repository&gt;
+      &lt;Anchor&gt;None&lt;/Anchor&gt;
+      &lt;Path&gt;d:\src\gh\delme2\webpack-library-starter\&lt;/Path&gt;
+    &lt;/Repository&gt;
+    &lt;Repository&gt;
+      &lt;Anchor&gt;None&lt;/Anchor&gt;
+      &lt;Path&gt;d:\src\dr\brs\&lt;/Path&gt;
+    &lt;/Repository&gt;
+    &lt;Repository&gt;
+      &lt;Anchor&gt;None&lt;/Anchor&gt;
+      &lt;Path&gt;d:\src\abt\BorobudurReliefStories\&lt;/Path&gt;
+    &lt;/Repository&gt;
+    &lt;Repository&gt;
+      &lt;Anchor&gt;None&lt;/Anchor&gt;
+      &lt;Path&gt;d:\src\ks\apps\&lt;/Path&gt;
+    &lt;/Repository&gt;
+    &lt;Repository&gt;
+      &lt;Anchor&gt;None&lt;/Anchor&gt;
+      &lt;Path&gt;d:\src\abt\2\&lt;/Path&gt;
+    &lt;/Repository&gt;
+    &lt;Repository&gt;
+      &lt;Anchor&gt;None&lt;/Anchor&gt;
+      &lt;Path&gt;d:\src\ks\ga\&lt;/Path&gt;
+    &lt;/Repository&gt;
+    &lt;Repository&gt;
+      &lt;Anchor&gt;None&lt;/Anchor&gt;
+      &lt;Path&gt;d:\src\ks\apps.new\&lt;/Path&gt;
+    &lt;/Repository&gt;
+  &lt;/Repositories&gt;
+&lt;/RepositoryHistory&gt;</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>history remote</string>
+    </key>
+    <value>
+      <string>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;RepositoryHistory&gt;
+  &lt;Repositories&gt;
+    &lt;Repository&gt;
+      &lt;Anchor&gt;None&lt;/Anchor&gt;
+      &lt;Path&gt;https://github.com/digitalpalitools/pali-language-services.git&lt;/Path&gt;
+    &lt;/Repository&gt;
+    &lt;Repository&gt;
+      &lt;Anchor&gt;None&lt;/Anchor&gt;
+      &lt;Path&gt;https://github.com/kitamstudios/python-starter&lt;/Path&gt;
     &lt;/Repository&gt;
   &lt;/Repositories&gt;
 &lt;/RepositoryHistory&gt;</string>
@@ -553,7 +957,7 @@
       <string>IgnoreWhitespaceKind</string>
     </key>
     <value>
-      <string>None</string>
+      <string>Eol</string>
     </value>
   </item>
   <item>
@@ -566,10 +970,18 @@
   </item>
   <item>
     <key>
+      <string>includeUntrackedFilesInManualStash</string>
+    </key>
+    <value>
+      <string>true</string>
+    </value>
+  </item>
+  <item>
+    <key>
       <string>lastCommitMessage</string>
     </key>
     <value>
-      <string>#355 Enable high-contrast</string>
+      <string>update version before publish</string>
     </value>
   </item>
   <item>
@@ -577,7 +989,7 @@
       <string>LastUpdateCheck</string>
     </key>
     <value>
-      <string>2021/6/11</string>
+      <string>2021/6/13</string>
     </value>
   </item>
   <item>
@@ -606,6 +1018,14 @@
   </item>
   <item>
     <key>
+      <string>NoFastForwardMerge</string>
+    </key>
+    <value>
+      <string>true</string>
+    </value>
+  </item>
+  <item>
+    <key>
       <string>OmitUninterestingDiff</string>
     </key>
     <value>
@@ -618,6 +1038,14 @@
     </key>
     <value>
       <string>false</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>othertagcolor</string>
+    </key>
+    <value>
+      <string>Gray</string>
     </value>
   </item>
   <item>
@@ -721,22 +1149,6 @@
   </item>
   <item>
     <key>
-      <string>RefsSortBy</string>
-    </key>
-    <value>
-      <string>Default</string>
-    </value>
-  </item>
-  <item>
-    <key>
-      <string>RefsSortOrder</string>
-    </key>
-    <value>
-      <string>Descending</string>
-    </value>
-  </item>
-  <item>
-    <key>
       <string>relativedate</string>
     </key>
     <value>
@@ -793,6 +1205,14 @@
   </item>
   <item>
     <key>
+      <string>remotebranchcolor</string>
+    </key>
+    <value>
+      <string>Green</string>
+    </value>
+  </item>
+  <item>
+    <key>
       <string>RepoObjectsTree.BranchesIndex</string>
     </key>
     <value>
@@ -805,30 +1225,6 @@
     </key>
     <value>
       <string>1</string>
-    </value>
-  </item>
-  <item>
-    <key>
-      <string>RepoObjectsTree.ShowBranches</string>
-    </key>
-    <value>
-      <string>false</string>
-    </value>
-  </item>
-  <item>
-    <key>
-      <string>RepoObjectsTree.ShowSubmodules</string>
-    </key>
-    <value>
-      <string>false</string>
-    </value>
-  </item>
-  <item>
-    <key>
-      <string>RepoObjectsTree.ShowTags</string>
-    </key>
-    <value>
-      <string>true</string>
     </value>
   </item>
   <item>
@@ -998,9 +1394,6 @@
       &lt;HotkeyCommand CommandCode="5" Name="TreatFileAsText" KeyData="None" /&gt;
       &lt;HotkeyCommand CommandCode="10" Name="NextOccurrence" KeyData="LButton RButton Cancel MButton XButton1 XButton2 Space Prior PageUp Next PageDown End Home Left Up Right Alt" /&gt;
       &lt;HotkeyCommand CommandCode="11" Name="PreviousOccurrence" KeyData="LButton MButton XButton1 Space Prior PageUp Home Left Alt" /&gt;
-      &lt;HotkeyCommand CommandCode="12" Name="StageLines" KeyData="S" /&gt;
-      &lt;HotkeyCommand CommandCode="13" Name="UnstageLines" KeyData="U" /&gt;
-      &lt;HotkeyCommand CommandCode="14" Name="ResetLines" KeyData="R" /&gt;
     &lt;/Commands&gt;
   &lt;/HotkeySettings&gt;
   &lt;HotkeySettings Name="FormMergeConflicts"&gt;
@@ -1023,9 +1416,6 @@
       &lt;HotkeyCommand CommandCode="7" Name="OpenWithDifftoolFirstToLocal" KeyData="RButton ShiftKey Menu Space Next PageDown D0 D2 B P R NumPad0 NumPad2 F1 F3 Alt" /&gt;
       &lt;HotkeyCommand CommandCode="8" Name="OpenWithDifftoolSelectedToLocal" KeyData="RButton ShiftKey Menu Space Next PageDown D0 D2 B P R NumPad0 NumPad2 F1 F3 Shift Alt" /&gt;
       &lt;HotkeyCommand CommandCode="1" Name="ShowHistory" KeyData="H" /&gt;
-      &lt;HotkeyCommand CommandCode="9" Name="ResetSelectedFiles" KeyData="R" /&gt;
-      &lt;HotkeyCommand CommandCode="10" Name="StageSelectedFile" KeyData="S" /&gt;
-      &lt;HotkeyCommand CommandCode="11" Name="UnStageSelectedFile" KeyData="U" /&gt;
     &lt;/Commands&gt;
   &lt;/HotkeySettings&gt;
   &lt;HotkeySettings Name="RevisionFileTree"&gt;
@@ -1079,7 +1469,7 @@
       <string>showcurrentbranchonly</string>
     </key>
     <value>
-      <string>false</string>
+      <string>true</string>
     </value>
   </item>
   <item>
@@ -1164,6 +1554,14 @@
   </item>
   <item>
     <key>
+      <string>ShowSyntaxHighlightingInDiff</string>
+    </key>
+    <value>
+      <string>false</string>
+    </value>
+  </item>
+  <item>
+    <key>
       <string>SmtpPort</string>
     </key>
     <value>
@@ -1212,6 +1610,14 @@
   </item>
   <item>
     <key>
+      <string>stashkeepindex</string>
+    </key>
+    <value>
+      <string>false</string>
+    </value>
+  </item>
+  <item>
+    <key>
       <string>systemvisualstyle</string>
     </key>
     <value>
@@ -1220,10 +1626,18 @@
   </item>
   <item>
     <key>
+      <string>tagcolor</string>
+    </key>
+    <value>
+      <string>DarkBlue</string>
+    </value>
+  </item>
+  <item>
+    <key>
       <string>TelemetryEnabled</string>
     </key>
     <value>
-      <string>false</string>
+      <string>true</string>
     </value>
   </item>
   <item>

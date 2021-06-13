@@ -1,11 +1,14 @@
 [core]
-	editor = \"C:/Users/parthadas/scoop/apps/gitextensions/current/GitExtensions.exe\" fileeditor
+	editor = code --wait
+	autocrlf = false
 [user]
 	name = Partha P. Das
 	email = parthopdas@live.com
 [diff]
+	tool = vscode
 	guitool = vscode
 [merge]
+	tool = vscode
 	guitool = vscode
 [pull]
 	rebase = false
@@ -14,9 +17,9 @@
 [rebase]
 	autoStash = false
 [difftool "vscode"]
-	cmd = \"\" --wait --diff \"$LOCAL\" \"$REMOTE\"
+	cmd = \"code\" --wait --diff \"$LOCAL\" \"$REMOTE\"
 [mergetool "vscode"]
-	cmd = \"\" --wait \"$MERGED\"
+	cmd = "\"code\" --wait \"$MERGED\" "
 [credential]
 	helper = cache
 	helper =
