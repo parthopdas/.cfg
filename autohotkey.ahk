@@ -12,7 +12,9 @@ SetWorkingDir %A_ScriptDir%
 
 PrintScreen::AppsKey
 
-;; Czech alphabet
+;;;;;;;;;;;;;;;;;;;;
+;; Czech alphabet ;;
+;;;;;;;;;;;;;;;;;;;;
 ; a
 ::a\'::á
 ; b
@@ -56,7 +58,9 @@ PrintScreen::AppsKey
 ; z
 ::z\v::ž
 
-;; Pāli alphabet
+;;;;;;;;;;;;;;;;;;;
+;; Pāli alphabet ;;
+;;;;;;;;;;;;;;;;;;;
 ; a
 ::a\-::ā
 ; i
@@ -100,3 +104,4 @@ PrintScreen::AppsKey
 ; h
 ::l\.::ḷ
 ::m\>::ṁ
+::m\.::ṃ
