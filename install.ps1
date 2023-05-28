@@ -139,7 +139,6 @@ $files | Install-SettingsFile
 
 if ($IsWindows) {
   Write-Host -ForegroundColor Gray "Installing windows startup scripts... " -NoNewline
-  $autoExecBat = $filesRoot | Join-Path -ChildPath "autoexec.bat"
-  New-ItemProperty "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" -Name "AutoHotKey" -Value "cmd /c $autoExecBat" -PropertyType "String" -Force | Out-Null
+  Set-ItemProperty -Path HKCU:\Software\Microsoft\Windows\CurrentVersion\Run -Name AHK -Value "`"$env:USERPROFILE\scoop\apps\autohotkey\current\UX\AutoHotkeyUX.exe`" D:\src\p2d\.cfg\f\autohotkey.ahk" -Force
   Write-Host -ForegroundColor Green "done!"
 }

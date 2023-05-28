@@ -1,62 +1,101 @@
 ﻿;;
-;; Based on https://pastebin.com/eRADkvuN
+;; Based on https://pastebin.com/eRADkvuN + adapted for ahk v2
 ;;
 
-#NoEnv
 #Warn
 #SingleInstance force
 #Hotstring *?
 
-SendMode Input
-SetWorkingDir %A_ScriptDir%
+SendMode "Input"
+SetWorkingDir A_InitialWorkingDir
 
 PrintScreen::AppsKey
 
 ;;;;;;;;;;;;;;;;;;;;
-;; Czech alphabet ;;
+;; Polish alphabet ;;
 ;;;;;;;;;;;;;;;;;;;;
 ; a
-::a\'::á
+; A
+; ą
+::a\,::ą
+; Ą
+::A\,::Ą
 ; b
+; B
 ; c
-::c\v::č
+; C
+; ć
+::c\'::ć
+; Ć
+::C\'::Ć
 ; d
-::d\v::ď
+; D
 ; e
-::e\'::é
-::e\v::ě
+; E
+; ę
+::e\,::ę
+; Ę
+::E\,::Ę
 ; f
+; F
 ; g
+; G
 ; h
-; ch
+; H
 ; i
-::i\'::í
+; I
 ; j
+; J
 ; k
+; K
 ; l
+; L
+; ł
+::l\/::ł
+; Ł
+::L\/::Ł
 ; m
+; M
 ; n
-::n\v::ň
+; N
+; ń
+::n\'::ń
+; Ń
+::N\'::Ń
 ; o
+; O
+; ó
 ::o\'::ó
+; Ó
+::O\'::Ó
 ; p
-; q
+; P
 ; r
-::r\v::ř
+; R
 ; s
-::s\v::š
+; S
+; ś
+::s\'::ś
+; Ś
+::S\'::Ś
 ; t
-::t\v::ť
+; T
 ; u
-::u\'::ú
-::u\o::ů
-; v
+; U
 ; w
-; x
+; W
 ; y
-::y\'::ý
+; Y
 ; z
-::z\v::ž
+; Z
+; ź
+::z\'::ź
+; Ź
+::Z\'::Ź
+; ż
+::z\.::ż
+; Ż
+::Z\.::Ż
 
 ;;;;;;;;;;;;;;;;;;;
 ;; Pāli alphabet ;;

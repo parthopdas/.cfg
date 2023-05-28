@@ -18,3 +18,6 @@ $modules | ForEach-Object {
 }
 
 Set-Location d:\src
+Set-ItemProperty -Path HKCU:\Software\Microsoft\Windows\CurrentVersion\Run -Name AHK -Value "`"$env:USERPROFILE\scoop\apps\autohotkey\current\UX\AutoHotkeyUX.exe`" D:\src\p2d\.cfg\f\autohotkey.ahk" -Force
+Set-PSReadLineOption -PredictionSource History
+gpgconf.exe --launch gpg-agent

@@ -709,7 +709,7 @@
       <string>FormBrowse.RevisionsSplitContainer_Size</string>
     </key>
     <value>
-      <string>1846</string>
+      <string>3840</string>
     </value>
   </item>
   <item>
@@ -717,7 +717,7 @@
       <string>FormBrowse.RightSplitContainer_Distance</string>
     </key>
     <value>
-      <string>351</string>
+      <string>676</string>
     </value>
   </item>
   <item>
@@ -749,7 +749,7 @@
       <string>FormBrowse.RightSplitContainer_Size</string>
     </key>
     <value>
-      <string>1042</string>
+      <string>2011</string>
     </value>
   </item>
   <item>
@@ -810,23 +810,7 @@
   &lt;Repositories&gt;
     &lt;Repository&gt;
       &lt;Anchor&gt;None&lt;/Anchor&gt;
-      &lt;Path&gt;d:\src\p2d\.cfg\&lt;/Path&gt;
-    &lt;/Repository&gt;
-    &lt;Repository&gt;
-      &lt;Anchor&gt;None&lt;/Anchor&gt;
-      &lt;Path&gt;d:\src\dpt\pls\&lt;/Path&gt;
-    &lt;/Repository&gt;
-    &lt;Repository&gt;
-      &lt;Anchor&gt;None&lt;/Anchor&gt;
       &lt;Path&gt;d:\src\p2d\partho.ws\&lt;/Path&gt;
-    &lt;/Repository&gt;
-    &lt;Repository&gt;
-      &lt;Anchor&gt;None&lt;/Anchor&gt;
-      &lt;Path&gt;d:\src\p2d\l\&lt;/Path&gt;
-    &lt;/Repository&gt;
-    &lt;Repository&gt;
-      &lt;Anchor&gt;None&lt;/Anchor&gt;
-      &lt;Path&gt;d:\src\dpr\dpr-p2d\&lt;/Path&gt;
     &lt;/Repository&gt;
     &lt;Repository&gt;
       &lt;Anchor&gt;None&lt;/Anchor&gt;
@@ -834,7 +818,27 @@
     &lt;/Repository&gt;
     &lt;Repository&gt;
       &lt;Anchor&gt;None&lt;/Anchor&gt;
-      &lt;Path&gt;d:\src\p2d\dotcfg\&lt;/Path&gt;
+      &lt;Path&gt;d:\src\dpr\m\&lt;/Path&gt;
+    &lt;/Repository&gt;
+    &lt;Repository&gt;
+      &lt;Anchor&gt;None&lt;/Anchor&gt;
+      &lt;Path&gt;d:\src\gh\scoop\scoop-extras\&lt;/Path&gt;
+    &lt;/Repository&gt;
+    &lt;Repository&gt;
+      &lt;Anchor&gt;None&lt;/Anchor&gt;
+      &lt;Path&gt;d:\src\p2d\l\&lt;/Path&gt;
+    &lt;/Repository&gt;
+    &lt;Repository&gt;
+      &lt;Anchor&gt;None&lt;/Anchor&gt;
+      &lt;Path&gt;d:\src\dpt\webui\&lt;/Path&gt;
+    &lt;/Repository&gt;
+    &lt;Repository&gt;
+      &lt;Anchor&gt;None&lt;/Anchor&gt;
+      &lt;Path&gt;d:\src\dpt\pls\&lt;/Path&gt;
+    &lt;/Repository&gt;
+    &lt;Repository&gt;
+      &lt;Anchor&gt;None&lt;/Anchor&gt;
+      &lt;Path&gt;d:\src\p2d\.cfg\&lt;/Path&gt;
     &lt;/Repository&gt;
     &lt;Repository&gt;
       &lt;Anchor&gt;None&lt;/Anchor&gt;
@@ -858,10 +862,6 @@
     &lt;/Repository&gt;
     &lt;Repository&gt;
       &lt;Anchor&gt;None&lt;/Anchor&gt;
-      &lt;Path&gt;d:\src\dpt\webui\&lt;/Path&gt;
-    &lt;/Repository&gt;
-    &lt;Repository&gt;
-      &lt;Anchor&gt;None&lt;/Anchor&gt;
       &lt;Path&gt;d:\src\dpt\ttt\&lt;/Path&gt;
     &lt;/Repository&gt;
     &lt;Repository&gt;
@@ -870,15 +870,7 @@
     &lt;/Repository&gt;
     &lt;Repository&gt;
       &lt;Anchor&gt;None&lt;/Anchor&gt;
-      &lt;Path&gt;d:\src\dr\crb\&lt;/Path&gt;
-    &lt;/Repository&gt;
-    &lt;Repository&gt;
-      &lt;Anchor&gt;None&lt;/Anchor&gt;
       &lt;Path&gt;\\wsl$\Ubuntu\home\partho\src\dpt\edpd\&lt;/Path&gt;
-    &lt;/Repository&gt;
-    &lt;Repository&gt;
-      &lt;Anchor&gt;None&lt;/Anchor&gt;
-      &lt;Path&gt;d:\src\gh\parthopdas.github.io\&lt;/Path&gt;
     &lt;/Repository&gt;
     &lt;Repository&gt;
       &lt;Anchor&gt;None&lt;/Anchor&gt;
@@ -887,10 +879,6 @@
     &lt;Repository&gt;
       &lt;Anchor&gt;None&lt;/Anchor&gt;
       &lt;Path&gt;d:\src\ks\typescript-nodejs-app-starter\&lt;/Path&gt;
-    &lt;/Repository&gt;
-    &lt;Repository&gt;
-      &lt;Anchor&gt;None&lt;/Anchor&gt;
-      &lt;Path&gt;d:\src\dr\BorobudurReliefStories\&lt;/Path&gt;
     &lt;/Repository&gt;
     &lt;Repository&gt;
       &lt;Anchor&gt;None&lt;/Anchor&gt;
@@ -910,23 +898,11 @@
     &lt;/Repository&gt;
     &lt;Repository&gt;
       &lt;Anchor&gt;None&lt;/Anchor&gt;
-      &lt;Path&gt;d:\src\abt\BorobudurReliefStories\&lt;/Path&gt;
-    &lt;/Repository&gt;
-    &lt;Repository&gt;
-      &lt;Anchor&gt;None&lt;/Anchor&gt;
       &lt;Path&gt;d:\src\ks\apps\&lt;/Path&gt;
     &lt;/Repository&gt;
     &lt;Repository&gt;
       &lt;Anchor&gt;None&lt;/Anchor&gt;
-      &lt;Path&gt;d:\src\abt\2\&lt;/Path&gt;
-    &lt;/Repository&gt;
-    &lt;Repository&gt;
-      &lt;Anchor&gt;None&lt;/Anchor&gt;
       &lt;Path&gt;d:\src\ks\ga\&lt;/Path&gt;
-    &lt;/Repository&gt;
-    &lt;Repository&gt;
-      &lt;Anchor&gt;None&lt;/Anchor&gt;
-      &lt;Path&gt;d:\src\ks\apps.new\&lt;/Path&gt;
     &lt;/Repository&gt;
   &lt;/Repositories&gt;
 &lt;/RepositoryHistory&gt;</string>
@@ -981,7 +957,7 @@
       <string>lastCommitMessage</string>
     </key>
     <value>
-      <string>update version before publish</string>
+      <string>Generousity</string>
     </value>
   </item>
   <item>
@@ -989,7 +965,7 @@
       <string>LastUpdateCheck</string>
     </key>
     <value>
-      <string>2021/6/13</string>
+      <string>2021/8/28</string>
     </value>
   </item>
   <item>
@@ -1136,7 +1112,7 @@
       <string>RecentWorkingDir</string>
     </key>
     <value>
-      <string>d:\src\p2d\.cfg\</string>
+      <string>d:\src\p2d\partho.ws\</string>
     </value>
   </item>
   <item>

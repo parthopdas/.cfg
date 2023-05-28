@@ -1,9 +1,10 @@
 [core]
 	editor = code --wait
-	autocrlf = false
+	autocrlf = true
 [user]
 	name = Partha P. Das
 	email = parthopdas@live.com
+	signingkey = 252EA55235C3FCD7
 [diff]
 	tool = vscode
 	guitool = vscode
@@ -26,3 +27,7 @@
 	helper = D:/bin/gcm/git-credential-manager-core
 [credential "https://dev.azure.com"]
 	useHttpPath = true
+[commit]
+	gpgsign = true
+[gpg]
+	program = C:\\Users\\partho\\scoop\\apps\\gpg\\current\\bin\\gpg.exe
